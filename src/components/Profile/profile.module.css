@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0, auto;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  display: block;
+  border-radius: 150px;
+  background-color: rgb(49, 48, 48);
+}
+.nameStyle {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+.tagStyle {
+  color: rgb(114, 113, 113);
+  font-size: 50px;
+  margin: 0;
+}
+.locationStyle {
+  color: rgb(114, 113, 113);
+  font-size: 50px;
+  margin: 0;
+}
+.infoStyleList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.infoStyleItem {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(114, 113, 113);
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  font-size: 35px;
+  background-color: rgb(196, 195, 195);
+  margin: 0;
+  padding: 0;
+}
+.numbers {
+  font-weight: bold;
+}
