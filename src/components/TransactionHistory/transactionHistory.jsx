@@ -13,8 +13,8 @@ export default function TransactionHistory({ items }) {
         </thead>
 
         <tbody>
-          {items.map((item) => (
-            <tr key={item.id}>
+          {items.map((item, index) => (
+            <tr key={item.id} className={index % 2 === 0 ? css.odd : css.even}>
               <TransactionItem action={item} />
             </tr>
           ))}

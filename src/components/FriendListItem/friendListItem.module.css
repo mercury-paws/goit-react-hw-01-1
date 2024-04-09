@@ -2,7 +2,7 @@
   border: 2px solid;
   border-radius: 25px;
   padding: 25px;
-  width: 120px;
+  width: 170px;
 }
 .friendItemName {
   font-size: 40px;
@@ -12,4 +12,11 @@
 .friendItemStatus {
   margin: 0;
   padding: 0;
+}
+
+.online {
+  color: green;
+}
+.offline {
+  color: orangered;
 }

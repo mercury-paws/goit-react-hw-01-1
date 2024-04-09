@@ -1,9 +1,19 @@
 .head {
   color: aliceblue;
-  background-color: black;
+  background-color: rgb(43, 42, 42);
   width: 350px;
   text-align: center;
+  border: 1px solid black;
 }
 .center {
   margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.odd {
+  background-color: #fff;
+}
+.even {
+  background-color: grey;
 }

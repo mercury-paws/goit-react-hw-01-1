@@ -6,8 +6,8 @@ export default function TransactionItem({
   return (
     <>
       <td className={css.type}>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+      <td className={css.type}>{amount}</td>
+      <td className={css.type}>{currency}</td>
     </>
   );
 }
